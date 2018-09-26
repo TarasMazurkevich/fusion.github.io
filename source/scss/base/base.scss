@@ -1,0 +1,110 @@
+// include fonts
+@font-face {
+    font-family: 'OS-regular';
+    src: url('../fonts/OpenSansRegular.eot');
+    src: url('../fonts/OpenSansRegular.eot') format('embedded-opentype'),
+         url('../fonts/OpenSansRegular.woff2') format('woff2'),
+         url('../fonts/OpenSansRegular.woff') format('woff'),
+         url('../fonts/OpenSansRegular.ttf') format('truetype'),
+         url('../fonts/OpenSansRegular.svg#OpenSansRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'OS-bold';
+    src: url('../fonts/OpenSansSemiBold.eot');
+    src: url('../fonts/OpenSansSemiBold.eot') format('embedded-opentype'),
+         url('../fonts/OpenSansSemiBold.woff2') format('woff2'),
+         url('../fonts/OpenSansSemiBold.woff') format('woff'),
+         url('../fonts/OpenSansSemiBold.ttf') format('truetype'),
+         url('../fonts/OpenSansSemiBold.svg#OpenSansSemiBold') format('svg');
+}
+
+
+
+
+// basic settings
+* {
+	box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+	font-size: 10px;
+}
+
+body {
+  font-family: "OS-regular", Arial, sans-serif;
+}
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote,
+a, abbr, acronym, address,
+em, img, q,
+strong, sub, sup,
+ol, ul, li,
+form, label,
+article, aside, canvas, footer, header,
+menu, nav, section, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+a {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active,
+a:hover,
+a:focus {
+  outline: 0;
+  text-decoration: underline;
+}
+
+img {
+  border: 0;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}

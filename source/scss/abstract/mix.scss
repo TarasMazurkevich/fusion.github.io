@@ -1,0 +1,12 @@
+// mixins
+
+// font-regular
+@mixin regular() {
+	font-family: "OS-regular", Arial, sans-serif;
+	font-weight: normal;
+}
+// font-bold
+@mixin bold() {
+	font-family: "OS-bold", Arial, sans-serif;
+	font-weight: bold;
+}

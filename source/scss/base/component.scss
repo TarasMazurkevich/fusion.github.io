@@ -1,0 +1,39 @@
+// title for section
+.title {
+	@include bold();
+	font-size: 1.4rem;
+	font-variant: small-caps;
+	color: $main-orange;
+	text-align: center;
+}
+// subtitle for section
+.subtitle {
+	@include bold();
+	font-size: 4rem;
+	color: $text-light;
+	text-align: center;
+
+	::first-letter {
+		text-transform: uppercase;
+	}
+}
+// text-transform - camelcase
+.camelcase {
+	text-transform: capitalize;
+}
+
+// default-btn
+.btn {
+	&_text {
+		display: inline-block;
+		border: none;
+		font-size: 1.4rem;
+		font-variant: small-caps;
+		color: $text-light;
+		text-decoration: none;
+	}
+
+	&_icon {
+		display: inline-block;
+	}
+}
